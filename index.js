@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {
-  CameraRoll,
   Platform,
   StyleSheet,
   View,
@@ -10,7 +9,7 @@ import {
 } from 'react-native';
 import PropTypes from 'prop-types';
 import Row from './Row';
-
+import CameraRoll from '@react-native-community/cameraroll'
 import ImageItem from './ImageItem';
 
 const styles = StyleSheet.create({
