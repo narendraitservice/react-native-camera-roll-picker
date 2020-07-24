@@ -52,7 +52,7 @@ class ImageItem extends Component {
       >
         <Image
           source={{ uri: image.uri }}
-          style={{ height: this.imageSize, width: this.imageSize }}
+          style={{ height: this.imageSize, width: this.imageSize,borderRadius:5,backgroundColor: '#f8f8f8' }}
         />
         {(selected) ? marker : null}
       </TouchableOpacity>
